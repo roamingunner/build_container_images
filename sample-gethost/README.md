@@ -4,7 +4,7 @@ get host through `uname -a`
 
 ## build
 
-docker buildx build -t roamingunner/sample-gethost --platform=linux/arm,linux/arm64 . --push
+docker buildx build -t roamingunner/sample-gethost --platform=linux/arm/v7,linux/arm64 . --push
 
 ## run
 
